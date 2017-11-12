@@ -1,0 +1,67 @@
+form{
+	display:flex;
+}
+form{
+	padding-top: 165px;
+	flex-direction: column;
+	align-items: center;
+}
+.google{
+	margin-bottom: 30px;
+}
+.search{
+	padding-left: 15px;
+	width: 30%;
+	height: 44px;
+	display: block;
+	margin-bottom: 30px;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 0 0 1px rgba(0,0,0,0.08);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+input[type='text']{
+    border: none;
+	width: 80%;
+	height: 40px;
+	outline: none;
+}
+input[type='submit']{
+    border: none;	
+}
+input[type='button']{
+border:none
+}
+.buttons{
+display : flex;
+justify-content : space-between;
+}
+.unbutton{
+	height: 36px;
+	width: 133px;
+	line-height: 27px;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 3px;
+	color: #757575;
+}
+.unbutton:hover{
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	color: #222;
+}
+.unnbutton{
+	height: 36px;
+	width: 133px;
+	line-height: 27px;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 3px;
+	color: #757575;
+}
